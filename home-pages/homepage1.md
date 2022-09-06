@@ -20,15 +20,15 @@ description: Homepage 1 Description
 
 # Section 2
 
-<card-grid>
+<section id="section-id" class="section-class">
   
-> [Module 1](/module1/home)  
-> chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
+  > [Module 1](/module1/home)  
+  > chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
 
-> [Module 1](/module1/home)  
-> chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
+  > [Module 1](/module1/home)  
+  > chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
 
-> [Module 1](/module1/home)  
-> chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
-  
-</card-grid>
+  > [Module 1](/module1/home)  
+  > chicken boudin spare ribs porchetta. Landjaeger doner sausage cow beef, pig ground round jowl pork belly bacon hamburger turkey buffalo ham hock venison
+
+</section>
