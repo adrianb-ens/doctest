@@ -17,7 +17,7 @@ DirSync and Hybrid. These connector types are described in this chapter.
 
 The decision tree below can help guide you on the Active Directory connector type to use.
 
-![An image showing a decision tree that can guide you on the Active Directory connector type to use](media/image13.png)
+![An image showing a decision tree that can guide you on the Active Directory connector type to use](../../media/image13.png)
 
 ## Active Directory USNChanged Connector
 
