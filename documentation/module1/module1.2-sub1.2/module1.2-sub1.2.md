@@ -74,18 +74,6 @@ The ReplUpToDateVector type is a tuple with the following fields:
 
 - `timeLastSyncSuccess`: The time at which the last successful replication occurred from the DC identified by `uuidDsa`; for replication latency reporting only.
 
-[replUpToDateVector] example:
-
-```sh
-01ca6e90-7d20-4f9c-ba7b-823a72fc459e @ USN 2210490 @ Time 2005-08-21
-15:54:21
-
-1d9bb4b6-054a-440c-aedf-7a3f28837e7f @ USN 26245013 @ Time 2007-02-27
-10:17:33
-
-24980c9d-39fa-44d7-a153-c0c5c27f0577 @ USN 4606302 @ Time 2006-08-20
-23:33:09
-```
 
 For more information on Active Directory replication please see the
 following websites:
