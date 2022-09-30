@@ -3,7 +3,7 @@ title: Module 1 Sub 1
 description: Module 1 Sub 1 Description
 ---
 
-![An image showing a decision tree that can guide you on the Active Directory connector type to use](./image1.png)
+![An image showing a decision tree that can guide you on the Active Directory connector type to use](../../media/image1.png)
 
 # Module 1 Sub 1
 
@@ -100,7 +100,7 @@ Important things to keep in mind about the different Active Directory connector 
 
 Set the connector type in the pipeline configuration by clicking the **Capture** component. In the Core Properties section, select the type of Active Directory connector from the drop-down list.
 
-![An image showing the drop-down list for available types of Active Directory connectors in the Core Properties section of Configure Pipeline](media/image14.png)
+![An image showing the drop-down list for available types of Active Directory connectors in the Core Properties section of Configure Pipeline](../../media/image14.png)
 
 Figure 4. 1: Active Directory Connector Type
 
@@ -129,7 +129,7 @@ If the captured change type is not delete (e.g. insert, update, move…etc.), an
 
 To further condition the entries that are published, you can indicate one or more branches to exclude. In the Excluded Branches property, enter one or more suffixes associated with entries that should not be published by the connector. Click **Enter** after each suffix. An example is shown below.
 
-![An image showing two suffixes entered in the Excluded Branches property](media/image9.png)
+![An image showing two suffixes entered in the Excluded Branches property](../../media/image9.png)
 
 If the changed entry DN contains a suffix that matches the excluded branches value, or is a change in the exact entry that is listed (e.g. `ou=dept1,ou=com`), this entry is not published by the connector. Otherwise, the entry is published. This can avoid publishing unwanted information.
 
@@ -144,7 +144,7 @@ If a change is made to this property while the connector is running, the new val
 
 To further condition the entries that are published, you can indicate one or more branches to include. In the Included Branches property, enter one or more suffixes associated with entries that should be published by the connector. Click **Enter** after each suffix. An example is shown below.
 
-![An image showing two suffixes entered in the Included Branches property](media/image10.png)
+![An image showing two suffixes entered in the Included Branches property](../../media/image10.png)
 
 If the changed entry DN contains a suffix that matches the included branches value, or is a change in the exact entry that is listed (e.g. `ou=dept1,ou=com`), this entry is published by the connector. Otherwise, the entry is not published. This can avoid publishing unwanted information.
 
