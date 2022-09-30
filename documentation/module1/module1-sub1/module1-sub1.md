@@ -20,7 +20,7 @@ Database connectors can leverage a failover backend that has been configured for
 >[!note]
 >For SQL Server backends, indicating the failover server in the data source is not required. You only need to indicate the primary server in the data source and the connector can automatically detect the failover/mirrored server.**
 
-![An image showing where to select a Failover Server for the Backend Database](media/image15.png)
+![An image showing where to select a Failover Server for the Backend Database](../../media/image15.png)
 
 Figure 5. 1: Configuring a Failover Server for the Backend Database
 
@@ -50,7 +50,7 @@ sid=0xC82A450E586CCC4CADDD802E9D9CA404;`
 
 To detect changes using Changelog (triggers), set the connector type in the pipeline configuration by clicking the **Capture** component. In the Core Properties section, select DB Changelog from the drop-down list.
 
-![An image showing the drop-down list for Connector Type with DB Changelog selected, in the Core Properties section of Configure Pipeline](media/image16.png)
+![An image showing the drop-down list for Connector Type with DB Changelog selected, in the Core Properties section of Configure Pipeline](../../media/image16.png)
 
 Figure 5. 2: DB Changelog Connector Type
 
@@ -72,7 +72,7 @@ The name of the database table where changes to database entries are logged. You
 
 When you save the connector type configuration, you are prompted to execute the scripts on the database server. An example is shown below.
 
-![An image showing a prompt to execute DB Changelog configure scripts with "No" and "OK" buttons](media/image17.png)
+![An image showing a prompt to execute DB Changelog configure scripts with "No" and "OK" buttons](../../media/image17.png)
 
 Figure 5. 3: Option to Execute Database Scripts
 
